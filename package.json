@@ -9,7 +9,7 @@
     "next-app"
   ],
   "scripts": {
-    "biuld": "turbo run build",
+    "build": "turbo run build",
     "test": "turbo run test"
   },
   "devDependencies": {
