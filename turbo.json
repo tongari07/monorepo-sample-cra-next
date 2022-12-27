@@ -5,6 +5,8 @@
       "dependsOn": ["^build"],
       "outputs": ["build", ".next/**"]
     },
-    "lint": {}
+    "test": {
+      "dependsOn": ["^build"]
+    }
   }
 }
