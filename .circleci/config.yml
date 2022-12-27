@@ -12,9 +12,9 @@ jobs:
     steps:
       - checkout
       - node/install-packages:
-        pkg-manager: yarn
+          pkg-manager: yarn
       - run:
-        command: yarn build
+          command: yarn build
       - run:
-        command: yarn test
+          command: yarn test
 # VS Code Extension Version: 1.5.0
