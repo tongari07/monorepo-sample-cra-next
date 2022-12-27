@@ -1,0 +1,11 @@
+{
+  "name": "monorepo-sample-cra-next",
+  "private": true,
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "workspaces": [
+    "cra-app",
+    "next-app"
+  ]
+}
